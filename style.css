@@ -37,7 +37,7 @@ img{
   padding: 0.75rem 1.5rem;
 }
 
-.current {
+.reg_button {
   background: red;
   border-radius: 20px;
   border: none;
@@ -153,7 +153,7 @@ img{
 }
 
 
-.image{
+.banner_image{
   background:linear-gradient(to left ,rgb(211, 57, 57) ,black 45%);
   color: white;
   padding: 150px 30px;
@@ -193,7 +193,7 @@ img{
 
 @media (max-width:820px)
 {
-.image{
+.banner_image{
   flex-direction: column;
   text-align: center;
 }
@@ -216,8 +216,8 @@ img{
 	font-size: 30px;
 	color:#fff;
 }
-.line{
-	width:200px;
+.aboutme_line{
+	width:160px;
 	height: 8px;
 	background-color: #fff;
 	display: block;
