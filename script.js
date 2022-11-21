@@ -1,5 +1,5 @@
 
-const probrogames=[
+const proBroGames=[
     {
     id:1,
     game_name:"IGI",
@@ -31,17 +31,16 @@ const probrogames=[
     game_image:"https://cdn.dlcompare.com/game_tetiere/upload/gameimage/file/8414.jpeg"
 }
 ]
-// console.log(probrogames);
 
-const all_games=document.querySelector(".all_games")
+const allGames=document.querySelector(".all-games")
 
-const gaming=probrogames.map((game)=> {
+const gaming=proBroGames.map((game)=> {
  return `
- <li class="game_item">
+ <li class="game-item">
  <div class="game">
-   <div class="game_image"><img src="${game.game_image}"/></div>
-   <div class="game_info">
-     <h2 class="game_name">${game.game_name}</h2>
+   <div class="game-image"><img src="${game.game_image}"/></div>
+   <div class="game-info">
+     <h2 class="game-name">${game.game_name}</h2>
      <button class="btn">Play</button>
    </div>
  </div>
@@ -49,5 +48,5 @@ const gaming=probrogames.map((game)=> {
 `
 }
 )
-all_games.innerHTML=gaming
+allGames.innerHTML=gaming
 
