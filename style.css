@@ -85,6 +85,8 @@ img {
   cursor: pointer;
   background: black;
   font-size: 16px;
+  text-align: center;
+  text-decoration: none;
 }
 .btn:hover {
   background: linear-gradient(to left, black, red);
