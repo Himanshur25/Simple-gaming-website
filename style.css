@@ -1,6 +1,5 @@
 
-
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,7 +7,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  
+ 
 }
 img{
   width: 100%;
@@ -37,19 +36,17 @@ img{
   padding: 0.75rem 1.5rem;
 }
 
-.reg_button {
+.home_button {
   background: red;
   border-radius: 20px;
-  border: none;
 }
 
 #navbar ul li a:hover {
   background: red;
   border-radius: 20px;
-  border: none;
   cursor: pointer;
 }
-@media (max-width: 660px) {
+@media (max-width: 640px) {
     #navbar {
         flex-direction: column;
         align-items: center;
@@ -63,10 +60,10 @@ img{
     #navbar ul {
         padding: 0.5rem;
     }
-    .img img{
+    /* .img img{
       width: 100%;
       height: auto;
-    }
+    } */
     #navbar ul li a {
       padding: 0.5rem;
     }
@@ -82,9 +79,7 @@ img{
     padding: 20px;
     background-color: #000;
     border: 2px solid red;
-    font-size: 30px;
-    
-    
+    font-size: 30px;   
 }
 
 .btn {
@@ -122,13 +117,13 @@ img{
 
 @media (min-width: 640px) {
   .game_item {
-    width: 50%;
+    width: 48%;
   }
 }
 
-@media (min-width: 56rem) {
+@media (min-width: 896px) {
   .game_item {
-    width: 33.3333%;
+    width: 32%;
   }
 }
 .game {
@@ -143,8 +138,7 @@ img{
 
 .game_name {
   color: #fff;
-  font-size: 24px;
-  text-transform: capitalize;
+  font-size: 16px;
   text-align: center;
   padding: 10px;
 }
@@ -182,6 +176,7 @@ img{
   text-transform: uppercase;
   cursor: pointer;
   animation: animate 2s infinite;
+  text-decoration: none;
 }
 @keyframes animate{
   from{background-color: red;}
@@ -205,7 +200,7 @@ img{
 }
 .about{
 	width:100%;
-	height: 690px;
+	height: 700px;
   background:linear-gradient(to left ,rgb(211, 57, 57) ,black 50%);
 	display: flex;
 	align-items: center;
@@ -214,6 +209,7 @@ img{
 }
 .text{
 	font-size: 30px;
+
 	color:#fff;
 }
 .aboutme_line{
@@ -228,7 +224,7 @@ img{
 .content{
 	width:100%;
 	height:auto;
-	background-color: #fff;
+	/* background-color: #fff; */
 	font-size: 23px;
 	font-family: audiowide;
 	color:#333;
